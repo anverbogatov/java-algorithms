@@ -11,3 +11,8 @@ This repository contains implementation of widely known and commonly used algori
 | Name | Variation| Complexity | Link |
 |------|----------|------------|------|
 | Binary Search | loop-based | O(log n) | [Show](https://github.com/anverbogatov/java-algorithms/blob/3cdac6ad6f99c53ec0e109dacce00eecb51fc66f/src/main/java/com/anverbogatov/algorithms/search/BinarySearch.java#L19) |
+
+### 🧮 Calculations
+| Name | Variation| Complexity | Link |
+|------|----------|------------|------|
+| Fibonacci numbers | recursion-based | O(2^n) | [Show](https://github.com/anverbogatov/java-algorithms/blob/04a46c302c9c49bfdeb4572c5623651ae88059a8/src/main/java/com/anverbogatov/algorithms/calculations/FibonacciNumbers.java#L13) |
