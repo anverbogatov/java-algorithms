@@ -16,3 +16,6 @@ This repository contains implementation of widely known and commonly used algori
 | Name | Variation| Complexity | Link |
 |------|----------|------------|------|
 | Fibonacci numbers | recursion-based | O(2^n) | [Show](https://github.com/anverbogatov/java-algorithms/blob/04a46c302c9c49bfdeb4572c5623651ae88059a8/src/main/java/com/anverbogatov/algorithms/calculations/FibonacciNumbers.java#L13) |
+
+## 📚 Coding Problems
+[List of coding problems with their solution](https://github.com/anverbogatov/java-algorithms/tree/main/src/main/java/com/anverbogatov/algorithms/tasks)
