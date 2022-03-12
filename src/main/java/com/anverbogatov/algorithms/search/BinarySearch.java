@@ -25,7 +25,7 @@ public final class BinarySearch {
         var high = numbers.length;
 
         while (true) {
-            var mid = (high + low) / 2;
+            var mid = low + (high - low) / 2;
             var temp = numbers[mid];
             if (temp == value) {
                 return mid;
