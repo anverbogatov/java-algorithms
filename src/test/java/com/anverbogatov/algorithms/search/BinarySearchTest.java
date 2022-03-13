@@ -1,12 +1,13 @@
 package com.anverbogatov.algorithms.search;
 
-import junit.framework.TestCase;
 import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.stream.IntStream;
 
-public class BinarySearchTest extends TestCase {
+public class BinarySearchTest {
 
+    @Test
     public void testBinarySearchWithEmptyArray() {
         // given
         var numbers = new int[]{};
@@ -16,6 +17,7 @@ public class BinarySearchTest extends TestCase {
         Assert.assertEquals(-1, index);
     }
 
+    @Test
     public void testBinarySearchWithSingleElementArrayHappy() {
         // given
         var numbers = new int[]{47};
@@ -25,6 +27,7 @@ public class BinarySearchTest extends TestCase {
         Assert.assertEquals(0, index);
     }
 
+    @Test
     public void testBinarySearchWithSingleElementArrayFailure() {
         // given
         var numbers = new int[]{47};
@@ -34,6 +37,7 @@ public class BinarySearchTest extends TestCase {
         Assert.assertEquals(-1, index);
     }
 
+    @Test
     public void testBinarySearch() {
         // given
         var numbers = IntStream.range(1, 100).toArray();
