@@ -18,6 +18,7 @@ This repository contains implementation of widely known and commonly used algori
 |------|----------|------------|------|
 | Selection Sort | loop-based | O(n^2) | [Show](https://github.com/anverbogatov/java-algorithms/blob/c6cd455f493a1d85b63994d59b68d0e824cc903b/src/main/java/com/anverbogatov/algorithms/sorting/SelectionSort.java#L11) |
 | Bubble Sort | loop-based | O(n^2) | [Show](https://github.com/anverbogatov/java-algorithms/blob/ce01819093c429f28a9822f38b7c2a41d8bfea64/src/main/java/com/anverbogatov/algorithms/sorting/BubbleSort.java#L11) |
+| Quick Sort | recursion-based | O(n * log n) | [Show](https://github.com/anverbogatov/java-algorithms/blob/2d7858dca2edb4692698c60e79f72690591784fb/src/main/java/com/anverbogatov/algorithms/sorting/QuickSort.java#L10) |
 
 ### 🧮 Calculations
 | Name | Variation| Complexity | Link |
