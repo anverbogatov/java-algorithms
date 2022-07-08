@@ -21,3 +21,9 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 Implement algorithm that shows if all characters in a given string are unique.
 
 **Bonus**: What if you are not allowed to use other data structures?
+
+## 📗 Task #3
+
+In the given array of numbers find max amount of consecutive elements.
+
+For example, given [10, 15, 2, 2, 2, 3, 7] max amount of consecutive elements will be equal to 3.
